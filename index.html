@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Azali</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./index.css">
+    <script defer src="./index.js"></script>
+</head>
+<body>
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <h2>Введите свои данные</h2>
+            <form>
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="phone">Номер телефона:</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+                <button type="submit">Отправить</button>
+            </form>
+        </div>
+    </div>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__base">
+                <div class="container">
+                    <a href="/" class="logo"><img src="./images/logo.png" alt="Company logo." class="logo__image"></a>
+                    <nav class="nav">
+                        <ul class="nav__list">
+                            <li class="nav__item"><a href="#service" class="nav__link">Услуги</a></li>
+                            <li class="nav__item"><a href="#additional" class="nav__link">Дополнительные услуги</a></li>
+                            <li class="nav__item"><a href="#cooperation" class="nav__link">Сотрудничество</a></li>
+                            <li class="nav__item"><a href="#usl" class="nav__link">Прайс</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="container">
+                <div class="intro">
+                    <h1 class="main-heading">сделаем ваше мероприятие незабываемым!</h1>
+                </div>
+                <div class="header__bottom">
+                    <p class="phone-number">+7(908)100-31-07</p>
+                    <p class="schedule">ПН-ВС С 9:00 ДО 21:00</p>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="introduce" id="service">
+                <div class="container">
+                    <h2 class="introduce__heading">Добро пожаловать на сайт театра танца «Azali»!</h2>
+                    <div class="introduce__content">
+                        <img src="./images/introduce.png" alt="Introduce image." class="introduce__image">
+                        <div class="introduce__part">
+                            <p class="introduce__desc">Создадим индивидуальный выход с участием молодоженов или «виновника торжества» – под вашу любимую музыку и с учетом ваших пожеланий!</p>
+                            <button class="order-button">Заказать</button>
+                        </div>
+                    </div>
+                    <div class="button">Услуги</div>
+                </div>
+            </section>
+            <section class="cards">
+                <div class="container">
+                    <h2 class="cards__heading cards__heading_special perform-heading">Танцевальные номера</h2>
+                    <div class="perform cards__container">
+                        <div class="cards__image-wrapper">
+                            <div>Некоторый кал</div>
+                            <img src="./images/perform.jpg" alt="Dance numbers." class="cards__image">
+                        </div>
+                        <div class="cards__image-wrapper">
+                            <div>Второй</div>
+                            <img src="./images/perform.jpg" alt="Dance numbers." class="cards__image">
+                        </div>
+                        <div class="cards__image-wrapper">
+                            <div>Some</div>
+                            <img src="./images/perform.jpg" alt="Dance numbers." class="cards__image">
+                        </div>
+                        <div class="cards__image-wrapper">
+                            <div>Some</div>
+                            <img src="./images/perform.jpg" alt="Dance numbers." class="cards__image">
+                        </div>
+                        <div class="cards__image-wrapper">
+                            <div>Some</div>
+                            <img src="./images/perform.jpg" alt="Dance numbers." class="cards__image">
+                        </div>
+                        <div class="cards__image-wrapper">
+                            <div>Some</div>
+                            <img src="./images/perform.jpg" alt="Dance numbers." class="cards__image">
+                        </div>
+                    </div>
+                    <button class="cards__button">Показать больше</button>
+                </div>
+            </section>
+            <section class="cards">
+                <div class="container">
+                    <h2 class="cards__heading">Национальные танцы</h2>
+                    <div class="dance cards__container">
+                        <img src="./images/dances.jpg" alt="National dances." class="cards__image">
+                        <img src="./images/dances.jpg" alt="National dances." class="cards__image">
+                        <img src="./images/dances.jpg" alt="National dances." class="cards__image">
+                        <img src="./images/dances.jpg" alt="National dances." class="cards__image">
+                    </div>
+                    <div class="cards__button"></div>
+                </div>
+            </section>
+            <section class="cards">
+                <div class="container">
+                    <h2 class="cards__heading cards__heading_special rituals-heading">Национальные обряды</h2>
+                    <div class="rituals cards__container">
+                        <div class="cards__image-wrapper">
+                            <img src="./images/rituals.jpg" alt="National rituals." class="cards__image">
+                        </div>
+                        <div class="cards__image-wrapper">
+                            <img src="./images/rituals.jpg" alt="National rituals." class="cards__image">
+                        </div>
+                        <div class="cards__image-wrapper">
+                            <img src="./images/rituals.jpg" alt="National rituals." class="cards__image">
+                        </div>
+                        <div class="cards__image-wrapper">
+                            <img src="./images/rituals.jpg" alt="National rituals." class="cards__image">
+                        </div>
+                        <div class="cards__image-wrapper">
+                            <img src="./images/rituals.jpg" alt="National rituals." class="cards__image">
+                        </div>
+                        <div class="cards__image-wrapper">
+                            <img src="./images/rituals.jpg" alt="National rituals." class="cards__image">
+                        </div>
+                        <div class="cards__image-wrapper">
+                            <img src="./images/rituals.jpg" alt="National rituals." class="cards__image">
+                        </div>
+                        <div class="cards__image-wrapper">
+                            <img src="./images/rituals.jpg" alt="National rituals." class="cards__image">
+                        </div>
+                    </div>
+                    <div class="rituals-buttons">
+                        <button class="cards__button">Показать больше</button>
+                        <button class="order-button">Заказать</button>
+                    </div>
+                    <div class="button">Школа казахского танца для детей "Арнау"</div>
+                </div>
+            </section>
+            <section class="how">
+                <div class="container">
+                    <h2 class="how__heading">Как детям в будущем попасть в основной коллектив театра танца Azali?</h2>
+                    <p class="how__text">
+                        В нашей студии у детей с 3 лет есть возможность после обучения по ритмике (возр. группа 3-4 года) продолжить заниматься по направлению «Казахский национальный танец». Став участником коллектива Azalikids (младший состав), дети смогут проявить свои таланты на сцене и расти в профессиональном плане!
+                        Даже если вы раньше не занимались хореографией, но есть желание отдать ребенка на танцы, мы принимаем в группу детей с 3 до 16 лет.
+                    </p>
+                    <p class="how__text how__text_color_red">
+                        Подробнее о нашей школе можете узнать на странице Вконтакте или Instagram!
+                    </p>
+                    <div class="how__bottom">
+                        <p class="how__item"><span>2018</span> год основания</p>
+                        <p class="how__item"><span>3</span> танцевальных направления</p>
+                        <p class="how__item"><span>2</span> филиала</p>
+                    </div>
+                </div>
+            </section>
+            <section class="map">
+                <div class="container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2289.236915133131!2d73.41304671566901!3d54.98648005829851!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43aafe7a6640d5ff%3A0x786bf3e5f3808e6c!2sUlitsa%2010%20Let%20Oktyabrya%2C%20127%D0%91%2C%20Omsk%2C%20Omskaya%20oblast&#39;%2C%20644031!5e0!3m2!1sen!2sru!4v1676921124581!5m2!1sen!2sru" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </section>
+            <section class="additional" id="additional">
+                <div class="container">
+                    <div class="additional__top">
+                        <div class="button">Дополнительные услуги</div>
+                    </div>
+                    <div class="additional__images">
+                        <img src="./images/additional.jpg" alt="Additional." class="additional">
+                        <img src="./images/additional.jpg" alt="Additional." class="additional">
+                        <img src="./images/additional.jpg" alt="Additional." class="additional">
+                        <img src="./images/additional.jpg" alt="Additional." class="additional">
+                        <img src="./images/additional.jpg" alt="Additional." class="additional">
+                    </div>
+                    <button class="order-button">Заказать</button>
+                </div>
+            </section>
+            <section class="steps" id="cooperation">
+                <div class="container">
+                    <h2 class="steps__heading">4 ШАГА К СОТРУДНИЧЕСТВУ</h2>
+                    <h3 class="steps__subheading">Это проще, чем кажется!</h3>
+                    <div class="steps__container">
+                        <div class="step">
+                            <div class="step__number">1</div>
+                            <h4 class="step__heading">Оставаться заявку</h4>
+                            <p class="step__text">
+                                Или позвоните нам по телефону или в WhatsApp. Мы ответим
+                                на все Ваши вопросы и предоставим информацию по форматам выступления и их стоимости.
+                            </p>
+                        </div>
+                        <div class="step">
+                            <div class="step__number">2</div>
+                            <h4 class="step__heading">Утверждаем программу</h4>
+                            <p class="step__text">
+                                В удобное для Вас время мы созвонимся, чтобы утвердить количество участниц и номеров,
+                                а также точную дату и время.
+                            </p>
+                        </div>
+                        <div class="step">
+                            <div class="step__number">3</div>
+                            <h4 class="step__heading">Подписываем договор</h4>
+                            <p class="step__text">
+                                Когда все детали будут оговорены, мы подпишем договор и забронируем за вами дату.
+                                На этом этапе мы попросим Вас внести предоплату.
+                            </p>
+                        </div>
+                        <div class="step">
+                            <div class="step__number">4</div>
+                            <h4 class="step__heading">Выступаем</h4>
+                            <p class="step__text">
+                                В день мероприятия наша команда заранее приедет на место и проведет всю необходимую подготовку.
+                                Вам останется только наслаждаться праздником!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__container">
+                    <h2 class="footer__heading">
+                        Меню
+                    </h2>
+                    <ul class="footer__list">
+                        <li class="footer__item"><a href="#service" class="footer__link">Услуги</a></li>
+                        <li class="footer__item"><a href="#additional" class="footer__link">Дополнительные услуги</a></li>
+                        <li class="footer__item"><a href="#cooperation" class="footer__link">Сотрудничество</a></li>
+                    </ul>
+                </div>
+                <div class="footer__part">
+                    <div class="footer__container">
+                        <h2 class="footer__heading">
+                            Контакты
+                        </h2>
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <img src="./images/TelephoneInbound.svg" alt="">
+                                <a href="" class="footer__link">+7(908)100-31-07</a>
+                            </li>
+                            <li class="footer__item">
+                                <img src="./images/email.svg" alt="">
+                                <a href="" class="footer__link">samal1402@yandex.ru</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__container">
+                        <h2 class="footer__heading">
+                            Присоединяйтесь
+                        </h2>
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <img src="./images/Bootstrap.svg" alt="">
+                                <a href="" class="footer__link">Азали Ахметова</a>
+                            </li>
+                            <li class="footer__item">
+                                <img src="./images/Telegram.svg" alt="">
+                                <a href="" class="footer__link">Azali</a>
+                            </li>
+                            <li class="footer__item">
+                                <img src="./images/inst.svg" alt="">
+                                <a href="" class="footer__link">dance_theatre_azali</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

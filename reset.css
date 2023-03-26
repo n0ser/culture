@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+input,
+textarea {
+    border: none;
+    outline: none;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+button,
+input,
+textarea {
+    background: none;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+a,
+input,
+textarea {
+    color: inherit;
+}
+
+li {
+    list-style: none;
+}
